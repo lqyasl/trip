@@ -17,13 +17,12 @@ export default {
   name: 'HomeSwiper',
   data () {
     return {
-      
     }
   }
 }
 </script>
 
-<style lang="stylus" scoped> 
+<style lang="stylus" scoped>
   @import '~@/assets/styles/varibles.styl'
   .header
     display flex

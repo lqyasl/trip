@@ -30,7 +30,7 @@ export default {
         {
           id: '003',
           url: 'http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20194/17e2352b857f66e9d2948e98dc483bc2.jpg_750x200_2857d0a3.jpg'
-        },
+        }
       ]
     }
   }
@@ -44,7 +44,7 @@ export default {
     overflow hidden
     width 100%
     height 0
-    padding-bottom 31.25%
+    padding-bottom 26.5%
     background-color #eee
     .swiper-img
       width 100%
