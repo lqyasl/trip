@@ -7,7 +7,7 @@
       <span class="iconfont back-icon">&#xe6a8;</span>
       输入城市/搜索/热门景点</div>
     <div class="header-right">
-      城市<span class="iconfont back-icon">&#xe64a;</span>
+      {{this.city}}<span class="iconfont back-icon">&#xe64a;</span>
       </div>
   </div>
 </template>
@@ -15,8 +15,12 @@
 <script>
 export default {
   name: 'HomeSwiper',
+  props: {
+    city: String
+  },
   data () {
     return {
+
     }
   }
 }
@@ -24,6 +28,7 @@ export default {
 
 <style lang="stylus" scoped>
   @import '~@/assets/styles/varibles.styl'
+  @import '~@/assets/styles/border.styl'
   .header
     display flex
     height .86rem
@@ -32,6 +37,7 @@ export default {
     color #fff
     background-color $bgColor
     font-size .26rem
+    bottom-border-1px(#ccc)
     .header-left
       width .64rem
       float left
